@@ -1,8 +1,8 @@
 import Body from "./components/Photo.jsx";
-import Body from "./components/Name.jsx";
-import Body from "./components/Buttons.jsx";
+import Name from "./components/Name.jsx";
+import Buttons from "./components/Buttons.jsx";
 import Body from "./components/Body.jsx";
-import Body from "./components/Social.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Name />
       <Buttons />
       <Body />
-      <Social />
+      <Footer />
     </>
   );
 }
