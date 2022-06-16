@@ -7,11 +7,15 @@ export default function Footer() {
   return (
     <>
       <footer className="footer-container">
-        <div className="footer-icons">
-          <img src={githubLogo} alt="githubLogo" title="githubLogo" />
-          <img src={linkedinLogo} alt="linkedinLogo" title="linkedinLogo" />
-          <img src={fbLogo} alt="fbLogo" title="fbLogo" />
-          <img src={spotifyLogo} alt="spotifyLogo" title="spotifyLogo" />
+        <div className="footer-items">
+          <img src={githubLogo} alt="githubLogo" title="Visit my GitHub" />
+          <img
+            src={linkedinLogo}
+            alt="linkedinLogo"
+            title="Visit my LinkedIn"
+          />
+          <img src={fbLogo} alt="fbLogo" title="Visit my Facebook" />
+          <img src={spotifyLogo} alt="spotifyLogo" title="Listen on Spotify" />
         </div>
       </footer>
     </>
